@@ -1,1 +1,2 @@
-print(" Execuntando Dundie")
+def main():
+    print(" Execuntando Dundie")
