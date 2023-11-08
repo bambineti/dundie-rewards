@@ -23,9 +23,11 @@ def main():
     )
 
     args = parser.parse_args()
-    try:
-        globals()[args.subcommand](args.filepath)
-    except KeyError:
-        print("Subcommand is invalid")
 
+    if args.subcommand == "load":
+        result = load(args.filepath)
+        header = ['name', "dept", "role", "e-mail"]
+        for person in result:
+            for key, value in zip(header, person.split(",")):
+                print(f"{key} -> (value.strip())")
 

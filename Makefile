@@ -1,4 +1,4 @@
-.PHONY: install virtualenv ipython 
+.PHONY: install virtualenv ipython test
 
 install:
 	@echo "Hello Installing"
@@ -9,4 +9,9 @@ virtualenv:
 
 ipython:
 	@.venv/bin/ipython
+
+test:
+	@.venv/bin/pytest -vv
+
+
 

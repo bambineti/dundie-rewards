@@ -4,7 +4,7 @@ from setuptools import find_packages, setup
 
 def read(*path):
     rootpath = os.path.dirname(__file__)
-    filepath= os.path.join(rootpath, *paths)
+    filepath= os.path.join(rootpath, *path)
     with open(filepath) as file_:
         return file_.read().strip()
 
