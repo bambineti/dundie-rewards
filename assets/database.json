@@ -1,0 +1,238 @@
+{
+    "people": {
+        "jim@dundlermifflin.com": {
+            "name": "Jim Halpert",
+            "dept": "Sales",
+            "role": "Salesman"
+        },
+        "schrute@dundlermifflin.com": {
+            "name": "Dwight Schrute",
+            "dept": "Sales",
+            "role": "Manager"
+        },
+        "glewis@dundlermifflin.com": {
+            "name": "Gabe Lewis",
+            "dept": "C-Level",
+            "role": "CEO"
+        }
+    },
+    "balance": {
+        "jim@dundlermifflin.com": 862,
+        "schrute@dundlermifflin.com": 462,
+        "glewis@dundlermifflin.com": 500
+    },
+    "movement": {
+        "jim@dundlermifflin.com": [
+            {
+                "date": "2023-11-27T17:47:54.910531",
+                "actor": "system",
+                "value": 500
+            },
+            {
+                "date": "2023-11-28T19:41:23.715499",
+                "actor": "cbnetti",
+                "value": 30
+            },
+            {
+                "date": "2023-11-28T19:41:52.945327",
+                "actor": "cbnetti",
+                "value": 332
+            },
+            {
+                "date": "2023-11-28T19:49:25.375426",
+                "actor": "cbnetti",
+                "value": -62
+            },
+            {
+                "date": "2023-11-28T19:50:50.173089",
+                "actor": "cbnetti",
+                "value": 62
+            },
+            {
+                "date": "2023-11-28T19:51:00.819817",
+                "actor": "cbnetti",
+                "value": -62
+            },
+            {
+                "date": "2023-11-28T19:52:21.536968",
+                "actor": "cbnetti",
+                "value": 62
+            },
+            {
+                "date": "2023-11-28T19:52:35.125824",
+                "actor": "cbnetti",
+                "value": 62
+            },
+            {
+                "date": "2023-11-28T19:53:16.913583",
+                "actor": "cbnetti",
+                "value": 62
+            },
+            {
+                "date": "2023-11-28T19:53:21.456896",
+                "actor": "cbnetti",
+                "value": 62
+            },
+            {
+                "date": "2023-11-28T19:53:54.705064",
+                "actor": "cbnetti",
+                "value": 62
+            },
+            {
+                "date": "2023-11-28T19:53:57.295108",
+                "actor": "cbnetti",
+                "value": 62
+            },
+            {
+                "date": "2023-11-28T19:57:53.668217",
+                "actor": "cbnetti",
+                "value": 62
+            },
+            {
+                "date": "2023-11-28T19:58:03.412170",
+                "actor": "cbnetti",
+                "value": -62
+            },
+            {
+                "date": "2023-11-28T19:58:05.028943",
+                "actor": "cbnetti",
+                "value": -62
+            },
+            {
+                "date": "2023-11-28T19:58:06.213523",
+                "actor": "cbnetti",
+                "value": -62
+            },
+            {
+                "date": "2023-11-28T19:58:07.949496",
+                "actor": "cbnetti",
+                "value": -62
+            },
+            {
+                "date": "2023-11-28T19:58:10.191311",
+                "actor": "cbnetti",
+                "value": -62
+            },
+            {
+                "date": "2023-11-28T19:58:12.518701",
+                "actor": "cbnetti",
+                "value": -62
+            }
+        ],
+        "schrute@dundlermifflin.com": [
+            {
+                "date": "2023-11-27T17:47:54.913734",
+                "actor": "system",
+                "value": 100
+            },
+            {
+                "date": "2023-11-28T19:41:23.715523",
+                "actor": "cbnetti",
+                "value": 30
+            },
+            {
+                "date": "2023-11-28T19:41:52.945350",
+                "actor": "cbnetti",
+                "value": 332
+            },
+            {
+                "date": "2023-11-28T19:49:25.375450",
+                "actor": "cbnetti",
+                "value": -62
+            },
+            {
+                "date": "2023-11-28T19:50:50.173113",
+                "actor": "cbnetti",
+                "value": 62
+            },
+            {
+                "date": "2023-11-28T19:51:00.819841",
+                "actor": "cbnetti",
+                "value": -62
+            },
+            {
+                "date": "2023-11-28T19:52:21.536992",
+                "actor": "cbnetti",
+                "value": 62
+            },
+            {
+                "date": "2023-11-28T19:52:35.125848",
+                "actor": "cbnetti",
+                "value": 62
+            },
+            {
+                "date": "2023-11-28T19:53:16.913608",
+                "actor": "cbnetti",
+                "value": 62
+            },
+            {
+                "date": "2023-11-28T19:53:21.456921",
+                "actor": "cbnetti",
+                "value": 62
+            },
+            {
+                "date": "2023-11-28T19:53:54.705089",
+                "actor": "cbnetti",
+                "value": 62
+            },
+            {
+                "date": "2023-11-28T19:53:57.295133",
+                "actor": "cbnetti",
+                "value": 62
+            },
+            {
+                "date": "2023-11-28T19:57:53.668242",
+                "actor": "cbnetti",
+                "value": 62
+            },
+            {
+                "date": "2023-11-28T19:58:03.412196",
+                "actor": "cbnetti",
+                "value": -62
+            },
+            {
+                "date": "2023-11-28T19:58:05.028969",
+                "actor": "cbnetti",
+                "value": -62
+            },
+            {
+                "date": "2023-11-28T19:58:06.213548",
+                "actor": "cbnetti",
+                "value": -62
+            },
+            {
+                "date": "2023-11-28T19:58:07.949522",
+                "actor": "cbnetti",
+                "value": -62
+            },
+            {
+                "date": "2023-11-28T19:58:10.191337",
+                "actor": "cbnetti",
+                "value": -62
+            },
+            {
+                "date": "2023-11-28T19:58:12.518728",
+                "actor": "cbnetti",
+                "value": -62
+            }
+        ],
+        "glewis@dundlermifflin.com": [
+            {
+                "date": "2023-11-27T17:47:54.914187",
+                "actor": "system",
+                "value": 500
+            }
+        ]
+    },
+    "users": {
+        "jim@dundlermifflin.com": {
+            "password": "cIbeV5to"
+        },
+        "schrute@dundlermifflin.com": {
+            "password": "2T9LYEWX"
+        },
+        "glewis@dundlermifflin.com": {
+            "password": "AkGlS0mP"
+        }
+    }
+}

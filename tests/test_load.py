@@ -1,39 +1,25 @@
 import pytest
-import uuid
-import os
 from dundie.core import load
 from .constants import PEOPLE_FILE
 
 
-def setup_module():
-    print()
-    print("roda antes dos testes desse modulo\n")
-
-
-def teardown_module():
-    print()
-    print("roda apos dos testes desse modulo\n")
-
-
-@pytest.fixture(scope="function", autouse=True)
-def create_new_file(tmpdir):
-    file_ = tmpdir.join("new_file.txt")
-    file_.write("isso é sujeira...")
-    yield
-    file_.remove()
+@pytest.mark.unit
+@pytest.mark.high
+def test_load_positive_has_2_people(request):
+    """Test function load function."""
+    assert len(load(PEOPLE_FILE)) == 3
 
 
 @pytest.mark.unit
 @pytest.mark.high
-def test_load(request):
-    file_path = f"arquivo_indesejado - {uuid.uuid4()}.txt"
+def test_load_positive_first_name_starts_with_j(request):
+    """Test function load function."""
+    assert load(PEOPLE_FILE)[0]["name"] == "Jim Halpert"
 
-    request.addfinalizer(lambda: os.unlink(file_path))
 
-
-    """ Test load function"""
-    with open(file_path,"w") as file_:
-        file_.write("dados uteis somente para o teste")
-
-    assert len(load(PEOPLE_FILE)) == 2
-    assert load(PEOPLE_FILE)[0][0] == 'J'
+@pytest.mark.unit
+@pytest.mark.high
+def test_negative_filenotfound(request):
+    """Test function load function."""
+    with pytest.raises(FileNotFoundError):
+        load("assets/invalid.csv")

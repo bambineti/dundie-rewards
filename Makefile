@@ -11,7 +11,7 @@ ipython:
 	@.venv/bin/ipython
 
 test:
-	@.venv/bin/pytest -vv
+	@.venv/bin/pytest -s --forked
 
 
 

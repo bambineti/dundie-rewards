@@ -4,16 +4,18 @@ from setuptools import find_packages, setup
 
 def read(*path):
     rootpath = os.path.dirname(__file__)
-    filepath= os.path.join(rootpath, *path)
+    filepath = os.path.join(rootpath, *path)
     with open(filepath) as file_:
         return file_.read().strip()
+
 
 def read_requirements(path):
     return [
         line.strip()
-        for  line in read(path).split("\n")
-        if not line.startswith(("#","git+",'"','-'))
+        for line in read(path).split("\n")
+        if not line.startswith(("#", "git+", '"', '-'))
     ]
+
 
 setup(
     name="Dundie", 
